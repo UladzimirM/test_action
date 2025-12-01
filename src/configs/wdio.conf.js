@@ -55,10 +55,6 @@ export const config = {
       args: ["--headless", "--disable-gpu"],
     },
     maxInstances: 2, 
-  },
-  {
-    browserName: "safari", 
-    maxInstances: 2,   // Safari doesn’t always support headless well
   }
   ],
 
